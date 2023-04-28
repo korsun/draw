@@ -1,0 +1,19 @@
+.Button {
+  padding: 8px 10px;
+  color: var(--color-light);
+  background-color: var(--color-blue);
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.Button:hover {
+  filter: saturate(120%);
+}
+
+.Button--abort {
+  background-color: var(--color-red);
+}

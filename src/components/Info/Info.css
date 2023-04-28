@@ -1,0 +1,21 @@
+.Info {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 200px;
+  padding: 20px;
+  background: var(--color-bg);
+  color: var(--color-comment);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.Info__directions {
+  margin-top: 0;
+  color: var(--color-dark);
+}
+
+.Info__button {
+  display: inline-block;
+  margin-right: 10px;
+}

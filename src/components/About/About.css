@@ -1,0 +1,43 @@
+.About {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.About__container {
+  position: absolute;
+  top: 50px;
+  bottom: 50px;
+  left: calc(50% - 250px);
+  width: 500px;
+  padding: 20px;
+  background: var(--color-bg);
+  border-radius: 4px;
+  overflow: scroll;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+@media (max-width: 600px) {
+  .About__container {
+    top: 15px;
+    bottom: auto;
+    left: 15px;
+    right: 15px;
+    width: auto;
+  }
+}
+
+.About__header {
+  text-align: right;
+}
+
+.About__heading {
+  display: inline-block;
+  padding: 2px 8px;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-radius: 2px;
+}
